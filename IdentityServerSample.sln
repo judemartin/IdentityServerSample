@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerSample", "IdentityServerSample\IdentityServerSample.csproj", "{C7C87E08-9506-44D3-AC1F-15790B47EE1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerSample", "IdentityServerSample\IdentityServerSample.csproj", "{C7C87E08-9506-44D3-AC1F-15790B47EE1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Web", "SocialNetwork.Web\SocialNetwork.Web.csproj", "{103654B4-F9CE-464E-BDC1-29AA1E739204}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialNetwork.Web", "SocialNetwork.Web\SocialNetwork.Web.csproj", "{103654B4-F9CE-464E-BDC1-29AA1E739204}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialNetworking.OAuth", "SocialNetworking.OAuth\SocialNetworking.OAuth.csproj", "{5AF66EBC-111A-4B55-BCC5-A0DFB335E33A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.API", "SocialNetwork.API\SocialNetwork.API.csproj", "{E881037E-D671-41E2-9183-AC45122A6619}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{103654B4-F9CE-464E-BDC1-29AA1E739204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{103654B4-F9CE-464E-BDC1-29AA1E739204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{103654B4-F9CE-464E-BDC1-29AA1E739204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF66EBC-111A-4B55-BCC5-A0DFB335E33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF66EBC-111A-4B55-BCC5-A0DFB335E33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF66EBC-111A-4B55-BCC5-A0DFB335E33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF66EBC-111A-4B55-BCC5-A0DFB335E33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E881037E-D671-41E2-9183-AC45122A6619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E881037E-D671-41E2-9183-AC45122A6619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E881037E-D671-41E2-9183-AC45122A6619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E881037E-D671-41E2-9183-AC45122A6619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
